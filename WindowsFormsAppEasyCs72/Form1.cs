@@ -46,6 +46,10 @@ namespace WindowsFormsAppEasyCs72
             _labels[1].BackColor = Color.Gray;
             _labels[2].BackColor = Color.DarkGoldenrod;
 
+            _labels[0].Font = new Font("Arial", 12, FontStyle.Bold);
+            _labels[1].Font = new Font("Times New Roman", 14, FontStyle.Italic);
+            _labels[2].Font = new Font("Courier New", 11, FontStyle.Strikeout);
+
             _labels[0].TextAlign = ContentAlignment.TopLeft;
             _labels[1].TextAlign = ContentAlignment.MiddleCenter;
             _labels[2].TextAlign = ContentAlignment.BottomRight;
